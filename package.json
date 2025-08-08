@@ -1,0 +1,24 @@
+{
+  "name": "near-onchain-research-assistant",
+  "version": "1.0.0",
+  "description": "On-Chain Research Assistant kombiniert NEAR Blockchain Daten mit KI-Analyse",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "near",
+    "blockchain",
+    "ai",
+    "research",
+    "agent"
+  ],
+  "author": "Lukas Harbeck",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.1",
+    "openai": "^4.0.0"
+  }
+}
